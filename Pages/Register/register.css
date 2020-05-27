@@ -1,0 +1,166 @@
+* {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+
+#menu {
+  margin: 0;
+  padding: 10px;
+  background-color: #422701;
+  font-style: arial;
+  font-size: 20px;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 70px;
+}
+
+#menu ul li a:hover {
+  background-color: #ffb64f;
+}
+
+.cuerpo {
+  min-height: 600px;
+  background: url(Images/bg.jpg);
+  background-size: cover;
+}
+
+.contenedor {
+  background: rgba(0, 0, 0, .7);
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  padding: 40px;
+}
+
+.contenedor .toggle {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 100px;
+  height: 30px;
+  font-size: 12;
+  line-height: 25px;
+  text-align: center;
+  border-top: 2px solid #ff851b;
+  border-bottom: 2px solid #ff851b;
+  border-left: 2px solid #ff851b;
+  border-right: 2px solid #ff851b;
+}
+
+.contenedor .toggle:hover {
+  border-top: 2px solid #422701;
+  border-bottom: 2px solid #422701;
+  border-left: 2px solid #422701;
+  border-right: 2px solid #422701;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.contenedor h2 {
+  margin: 0 0 28px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.contenedor input[type="text"],
+.contenedor input[type="password"],
+.contenedor input[type="email"] {
+  outline: none;
+  background: rgba(0, 0, 0, .5);
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid #ff851b;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+.contenedor input[type="text"]:focus,
+.contenedor input[type="password"]:focus,
+.contenedor input[type="email"]:focus {
+  border-bottom: 4px solid #422701;
+  transition: all .5s ease;
+}
+
+.contenedor input[type="submit"] {
+  background: #ff851b;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.contenedor input[type="submit"]:hover {
+  background-color: #422701;
+  transition: all .5s ease;
+}
+
+.contenedor .reset-password {
+  background: #422701;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.contenedor .reset-password a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenedor .reset-password:hover {
+  background: #ff851b;
+  transition: all .5s ease;
+}
+
+.contenedor .formulario {
+  padding: 40px;
+}
+
+.contenedor #formulario1 {
+  padding: 40px;
+  display: none;
+}
+
+.footer {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  background-color: #878787;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  column-count: 2;
+}
